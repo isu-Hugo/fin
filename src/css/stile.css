@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    height: 100dvh;
+    width: 100dvw;
+
+    background-color: #8a2be2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mata, .mama{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+    width: 80vw;
+    
+    background-color: #9a4ee2;
+
+    border-radius: 18px;
+    border-color: #2f015a;
+    border-style: solid;
+    cursor: pointer;
+
+}
+
+.mama:hover, .mata:hover{
+    background-color: #af7edd;
+}
+
+.mata img, .mama img{
+    width: 15vw;
+}
+
+.mata p, .mama p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 3vw;
+}
